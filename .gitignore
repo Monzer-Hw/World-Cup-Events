@@ -1,9 +1,30 @@
 # Ignore virtual environment
-env/
+venv/
 
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
+# Ignore Python version file created by pyenv
+.python-version
+
 # Ignore other unnecessary files
 *.pyc
+*.pyo
 __pycache__/
+
+# Ignore environment configuration files
+.env
+*.env
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.sav
+*.swo
+
+# Ignore generated reports and documentation
+*.html
+*.pdf
+*.svg

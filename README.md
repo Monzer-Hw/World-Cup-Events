@@ -1,16 +1,17 @@
-# FIFA World Cup Data Analysis
+# FIFA World Cup Data Mining
 
 ## Overview
-This repository contains a comprehensive data analysis project focused on FIFA World Cup events. The project utilizes various datasets to explore and analyze different aspects of World Cup history, including attendance, goals, matches, and tournaments.
+This repository contains a comprehensive data mining project focused on FIFA World Cup events. The project utilizes various datasets to explore and analyze different aspects of World Cup history, including attendance, goals, matches, and tournaments.
 
 ## Dataset
-The analysis is based on two main datasets:
+The project is based on two main datasets:
 1. The Fjelstul World Cup Database (https://github.com/jfjelstul/worldcup)
 2. World Cup Attendance Dataset (https://drive.google.com/file/d/1-4FNJB6T5LMpSMOtPv3WIa7nOjTFAC3z/view)
+the datasets are provided in the data folder.
 
 ## Technologies Used
 - Python
-- Libraries: Numpy, Scipy, Pandas, Plotly, Scikit-Learn
+- Libraries: Numpy, Scipy, Pandas, Matplotlib, Plotly, Scikit-Learn
 - IDE: Jupyter Notebook, Google Colab
 
 ## Project Structure
@@ -40,5 +41,5 @@ The project is divided into several main sections:
 
 ## How to Use
 1. Clone this repository
-2. Install the required libraries (requirements.txt provided): `pip install -r requirements.txt`
+3. Install the required libraries (requirements.txt provided): `pip install -r requirements.txt`
 3. Run the Jupyter notebook
