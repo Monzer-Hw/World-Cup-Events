@@ -1,0 +1,18 @@
+[project]
+name = "world-cup-event"
+version = "0.1.0"
+description = "Comprehensive data mining project focused on the FIFA World Cup events."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=2.0.2",
+    "pandas>=2.2.3",
+    "plotly>=5.24.1",
+    "scikit-learn>=1.6.0",
+    "scipy>=1.13.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]

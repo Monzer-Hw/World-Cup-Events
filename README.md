@@ -5,12 +5,13 @@ This repository contains a comprehensive data mining project focused on FIFA Wor
 
 ## Dataset
 The project is based on two main datasets:
-1. The Fjelstul World Cup Database (https://github.com/jfjelstul/worldcup)
-2. World Cup Attendance Dataset (https://drive.google.com/file/d/1-4FNJB6T5LMpSMOtPv3WIa7nOjTFAC3z/view)
+1. [The Fjelstul World Cup Database](https://github.com/jfjelstul/worldcup)
+2. [World Cup Attendance Dataset](https://drive.google.com/file/d/1-4FNJB6T5LMpSMOtPv3WIa7nOjTFAC3z/view)
+
 the datasets are provided in the data folder.
 
 ## Technologies Used
-- Python
+- Language: Python
 - Libraries: Numpy, Scipy, Pandas, Matplotlib, Plotly, Scikit-Learn
 - IDE: Jupyter Notebook, Google Colab
 
@@ -40,6 +41,32 @@ The project is divided into several main sections:
 - Relationships between host countries, tournament winners, and attendance
 
 ## How to Use
-1. Clone this repository
-3. Install the required libraries (requirements.txt provided): `pip install -r requirements.txt`
-3. Run the Jupyter notebook
+1. Clone this repository 
+   ````bash
+   git clone https://github.com/Monzer-Hw/World-Cup-Events
+   ````
+2. Install `uv` on your machine
+   
+   For macOS and linux:
+   ````bash
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ````
+   For windows:
+   ````bash
+   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+   ````
+3. Run the following commands:
+   
+   To create a virtual environment with the required libraries:
+   ````bash
+   uv sync
+   ````
+
+   To create a kernel for the jupyter notebook:
+   ````bash
+   uv run ipython kernel install --user --name=world-cup-events
+   ````
+4. Run the jupyter notebook with this command:
+   ````bash
+   uv run --with jupyter jupyter lab
+   ````
