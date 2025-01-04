@@ -70,3 +70,4 @@ The project is divided into several main sections:
    ````bash
    uv run --with jupyter jupyter lab
    ````
+   Or just select the virtual environment and run the notebook if you have VS Code with jupyter extentios
