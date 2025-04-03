@@ -14,8 +14,8 @@ __pypackages__/
 .mypy_cache/
 .coverage*
 
-# Data directory
-Data/
+# Data
+.csv
 
 # Editor
 /.idea/
