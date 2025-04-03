@@ -3,6 +3,12 @@
 ## Overview
 This repository contains a comprehensive data mining project focused on FIFA World Cup events. The project utilizes various datasets to explore and analyze different aspects of World Cup history, including attendance, goals, matches, and tournaments.
 
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="reports/figures/attendance_distribution.png" alt="Attendance Trends" width="33%">
+    <img src="reports/figures/golden_boot_winners_of_each_tournament.png" alt="Attendance Trends" width="33%">
+    <img src="reports/figures/top_12_players_in_all_versions.png" alt="Another Trend" width="33%">
+</div>
+
 ## Dataset
 The project is based on two main datasets:
 1. [The Fjelstul World Cup Database](https://github.com/jfjelstul/worldcup)
